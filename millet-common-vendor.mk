@@ -271,3 +271,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/millet-common/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/samsung/millet-common/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/millet-common/proprietary/bin/rild:system/bin/rild \
+    vendor/samsung/millet-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/samsung/millet-common/proprietary/lib/libperipheral_client.so:system/lib/libperipheral_client.so \
+    vendor/samsung/millet-common/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/samsung/millet-common/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/millet-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/millet-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/samsung/millet-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so
+
